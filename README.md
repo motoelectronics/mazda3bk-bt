@@ -3,7 +3,6 @@ which analyzes the voltage at the analog input (Mazda 3 BK Steering Wheel Button
 and controls the digital outputs according to the set conditions.
 
 Conditions:
-- If voltage 3.70-3.90V is >300ms  -> enable MUTE_PIN (MUTE button of CSR8645 BT module)
 - If voltage 3.70-3.90V is >3000ms -> enable RESET_PIN (reset CSR8645 BT module).
 - If voltage 2.30-2.50V is >300ms  -> enable PREV_PIN (PREV button of CSR8645 BT module).
 - If voltage 1.50-1.80V is >300ms  -> turn on NEXT_PIN (button NEXT CSR8645 BT module).
